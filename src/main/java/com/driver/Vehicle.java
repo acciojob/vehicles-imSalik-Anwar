@@ -57,4 +57,14 @@ public class Vehicle {
     public void setCurrentDirection(int currentDirection) {
         this.currentDirection = currentDirection;
     }
+
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", currentSpeed=" + currentSpeed +
+                ", currentDirection=" + currentDirection +
+                '}';
+    }
 }

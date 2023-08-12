@@ -91,4 +91,17 @@ public class Car extends Vehicle {
     public void setSeats(int seats) {
         this.seats = seats;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "wheels=" + wheels +
+                ", type='" + type + '\'' +
+                ", doors=" + doors +
+                ", gears=" + gears +
+                ", isManual=" + isManual +
+                ", currentGear=" + currentGear +
+                ", seats=" + seats +
+                '}';
+    }
 }

@@ -43,4 +43,9 @@ public class F1 extends Car {
             changeGear(6);
         }
     }
+
+    @Override
+    public String toString() {
+        return "F1{}";
+    }
 }
